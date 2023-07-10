@@ -29,7 +29,7 @@ const singer = {
 }
 singer.profile()
 
-const flowers={
+const flowers = {
   name: "さくら",
   color: "ピンク",
   season: "spring",
@@ -55,12 +55,12 @@ function addTax(name, price, func) {
   func(name, taxPrice);
 }
 
-function vegatableprice(name,price){
+function vegatablePrice(name,price){
   console.log(name + "の値段は" + price + "円です。");
 }
 
 //トマトの税込み価格をコンソールに表示させる処理
-addTax("トマト", 100, vegatableprice);
+addTax("トマト", 100, vegatablePrice);
 
 //玉ねぎの税込み価格をコンソールに表示させる処理
-addTax("玉ねぎ", 150, vegatableprice);
+addTax("玉ねぎ", 150, vegatablePrice);
