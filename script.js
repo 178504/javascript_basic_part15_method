@@ -7,8 +7,38 @@
 //オブジェクト内にkeyとvalueの部分が関数が書かれているもの。
 //オブジェクトの操作をするための道具。
 
-  // メソッド
-  // function click(); function get(); function alert();
+// メソッド
+// function click(); function get(); function alert();
+
+//メソッド実装
+const fruits = {
+  name:"みかん",
+  season:"winter",
+  place:function() {
+  console.log("小田原でよく取れます。");
+  }
+}
+fruits.place()
+
+const singer = {
+  name:"稲葉浩志",
+  genre:"ロック",
+  profile:function() {
+  console.log("ロック歌手世界一です");
+  }
+}
+singer.profile()
+
+const flowers={
+  name: "さくら",
+  color: "ピンク",
+  season: "spring",
+  show: function() {
+    console.log(flowers.name);
+  },
+};
+flowers.show()
+
 
 //2.下記の関数を実行してその結果をコンソールに表示してください。(スコープ内に書く方法はだめです。
 
